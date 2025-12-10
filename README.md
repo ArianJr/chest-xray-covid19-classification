@@ -65,7 +65,7 @@ Monitor the model’s training and validation performance over epochs.
 ### Confusion Matrix Heatmap
 Shows class-wise prediction performance on the test set.
 
-![Confusion Matrix Heatmap](confusion_matrix_heatmap.png)
+![Confusion Matrix Heatmap](assets/confusion_matrix_heatmap.png)
 
 ---
 
