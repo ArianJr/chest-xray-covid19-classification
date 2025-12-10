@@ -57,6 +57,17 @@ xray_dataset_covid19/
 
 ## 📁 Project Structure
 
+| Folder / File                       | Description                                                           |
+| ----------------------------------- | --------------------------------------------------------------------- |
+| `assets/`                           | Images or diagrams used in the README or for visualization            |
+| `dataset/`                          | Sample chest X-ray dataset included for demo/training/testing         |
+| `model/`                            | Folder where trained model files are saved                            |
+| `covid19_xray_cnn_classifier.ipynb` | Jupyter notebook with data processing, model training, and evaluation |
+| `requirements.txt`                  | Python dependencies needed to run the project                         |
+| `README.md`                         | Project documentation and instructions                                |
+| `.gitignore`                        | Specifies files/folders to be ignored by Git                          |
+| `LICENSE`                           | License file (MIT)                                                    |
+
 ---
 
 ## 🧰 Requirements & Setup
