@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
 [![Python Version](https://img.shields.io/badge/Python-3.x-green.svg)](https://www.python.org/)  
-[![Model Accuracy](https://img.shields.io/badge/Test%20Accuracy-97.5%25-brightgreen)](#results--observations)  
+![TENSORFLOW](https://img.shields.io/badge/TENSORFLOW-2.x-orange?logo=tensorflow&logoColor=white)  
 
 ## 🚀 Project Overview
 
