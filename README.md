@@ -1,7 +1,8 @@
 # Chest X‑Ray COVID‑19 Classification 🩺🧠
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#license)  
-[![Python Version](https://img.shields.io/badge/python-3.x-green.svg)](#requirements)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![Python Version](https://img.shields.io/badge/Python-3.x-green.svg)](https://www.python.org/)  
+[![Model Accuracy](https://img.shields.io/badge/Test%20Accuracy-97.5%25-brightgreen)](#results--observations)  
 
 ## 🚀 Project Overview
 
@@ -48,6 +49,23 @@ Example code to save the trained model:
 ```bash
 model.save('covid19_xray_cnn.h5')
 ```
+
+---
+## 📈 Visual Results
+
+### Loss & Accuracy Curves
+Monitor the model’s training and validation performance over epochs.
+
+Accuracy Curve:
+![Accuracy Curve]()
+
+Loss Curve:
+![Loss Curve]()
+
+### Confusion Matrix Heatmap
+Shows class-wise prediction performance on the test set.
+
+![Confusion Matrix Heatmap](path_to_confusion_matrix_heatmap.png)
 
 ---
 
