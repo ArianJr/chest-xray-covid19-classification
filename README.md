@@ -41,10 +41,10 @@ xray_dataset_covid19/
 ├── train/
 │ ├── PNEUMONIA/ # 36 images
 │ └── NORMAL/ # 36 images
-└── test/
+├── test/
 │ ├── PNEUMONIA/ # 10 images
 │ └── NORMAL/ # 10 images
-├── single_prediction
+└── single_prediction
 ├── PNEUMONIA/ # 1 images
 └── NORMAL/ # 2 images
 ```
