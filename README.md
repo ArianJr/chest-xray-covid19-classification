@@ -44,16 +44,16 @@ This project implements a Convolutional Neural Network (CNN) pipeline to classif
 
 ## 📊 Results & Observations
 
-*(You may replace the placeholders below with actual results from your runs — accuracy, loss curves, confusion matrix etc.)*
+| Metric / Output                  | Value / Description |
+|---------------------------------|-------------------|
+| Training Accuracy                | 94.59% (final epoch) |
+| Validation Accuracy              | 97.50% (final epoch) |
+| Test Accuracy / Loss             | 97.50% / 0.1199 |
+| Confusion Matrix (Test Set)      | [[9, 11], [12, 8]] |
+| Class-wise Precision / Recall / F1 | Class 0: Precision 0.43, Recall 0.45, F1 0.44<br>Class 1: Precision 0.42, Recall 0.40, F1 0.41 |
+| Overfitting / Underfitting Observed? | Some overfitting may be present: training accuracy increases steadily, validation accuracy fluctuates, and confusion matrix shows misclassifications. |
 
-| Metric / Output | Value / Description |
-|-----------------|---------------------|
-| Training Accuracy | ❌ / ✅ (replace) |
-| Validation Accuracy | ❌ / ✅ (replace) |
-| Class-wise Precision / Recall / F1 | ❌ / ✅ (replace) |
-| Overfitting / Underfitting Observed? | ❌ / ✅ (explain) |
-
-> **Note:** Performance on chest‑X‑ray classification heavily depends on data diversity, preprocessing, and dataset balance. For medical‑image tasks, results may vary widely; more advanced techniques may be necessary for robust, real‑world performance (e.g. transfer learning, data augmentation, cross‑validation, external test sets, interpretability).
+> **Note:** While the final validation accuracy is high (~97.5%), the classification report shows poor class-wise metrics, likely due to the small dataset (only 40 test images) and class imbalance. Further data augmentation or a larger dataset may improve real-world performance.
 
 ---
 
