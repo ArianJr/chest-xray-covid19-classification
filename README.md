@@ -36,6 +36,7 @@ This project uses a **sample subset** of the publicly available **COVID-19 Chest
 | Testing     | 10             | 10            | 20    |
 
 **Directory Structure:**
+```bash
 xray_dataset_covid19/
 ├── train/
 │ ├── PNEUMONIA/ # 36 images
@@ -46,6 +47,7 @@ xray_dataset_covid19/
 ├── single_prediction
 │ ├── PNEUMONIA/ # 1 images
 │ └── NORMAL/ # 2 images
+```
 
 ---
 
