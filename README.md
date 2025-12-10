@@ -42,11 +42,11 @@ xray_dataset_covid19/
 │ ├── PNEUMONIA/ # 36 images
 │ └── NORMAL/ # 36 images
 └── test/
-├── PNEUMONIA/ # 10 images
-└── NORMAL/ # 10 images
+│ ├── PNEUMONIA/ # 10 images
+│ └── NORMAL/ # 10 images
 ├── single_prediction
-│ ├── PNEUMONIA/ # 1 images
-│ └── NORMAL/ # 2 images
+├── PNEUMONIA/ # 1 images
+└── NORMAL/ # 2 images
 ```
 
 ---
