@@ -59,7 +59,10 @@ xray_dataset_covid19/
 - Install dependencies:  
   ```bash
   pip install -r requirements.txt
-  
+  ```
+- Use a virtual environment for clean setup.
+- Dataset folder should follow the structure above.
+
 ---
 
 ## 📝 Usage Guide
