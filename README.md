@@ -5,7 +5,12 @@
 
 ## 🚀 Project Overview
 
-This project implements a Convolutional Neural Network (CNN) pipeline to classify chest X‑ray images for COVID‑19 (and potentially related pulmonary conditions), using publicly available datasets. The aim is to provide a **proof‑of‑concept**, end‑to‑end demonstration — from image preprocessing and data loading, to model training, evaluation and visual inspection (e.g. via loss/accuracy curves, confusion matrices).
+This project implements a **Convolutional Neural Network (CNN)** to classify chest X-ray images into **COVID-19** and **Non-COVID** cases, using publicly available datasets. The aim is to provide a **proof‑of‑concept**, end‑to‑end demonstration — from image preprocessing and data loading, to model training, evaluation and visual inspection (e.g. via loss/accuracy curves, confusion matrices).
+
+**Highlights:**  
+- Simple baseline CNN for binary classification  
+- Small-scale dataset: 148 training images, 40 test images  
+- Includes visualization-ready outputs: loss/accuracy curves, confusion matrices
 
 **Why this project matters**  
 - Chest X‑rays are widely available, low-cost, and fast to acquire; an automated classifier can assist in rapid triage or research scenarios.  
@@ -54,6 +59,22 @@ This project implements a Convolutional Neural Network (CNN) pipeline to classif
 | Overfitting / Underfitting Observed? | Some overfitting may be present: training accuracy increases steadily, validation accuracy fluctuates, and confusion matrix shows misclassifications. |
 
 > **Note:** While the final validation accuracy is high (~97.5%), the classification report shows poor class-wise metrics, likely due to the small dataset (only 40 test images) and class imbalance. Further data augmentation or a larger dataset may improve real-world performance.
+
+---
+
+## 🔬 Model Architecture
+
+- The CNN model is a Sequential Keras model with:
+- 3 Convolutional layers + MaxPooling + Dropout
+- Flatten + Dense layer (128 units)
+- Output layer with sigmoid activation (binary classification)
+- Binary cross-entropy loss, Adam optimizer
+
+### Model Summary:
+- Total parameters: 22,522,241
+- Trainable parameters: 22,522,241
+- Input image size: 224×224×3
+- This simple architecture provides a baseline for further experimentation.
 
 ---
 
