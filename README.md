@@ -134,12 +134,14 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fo
 
 ---
 
----
-
 ## 🙏 Acknowledgements
-- TensorFlow & Keras communities for excellent tools.  
-- Open-source datasets used for training (acknowledge your dataset).  
-- Tutorials and guides on CNNs that inspired this workflow.
+
+- **Dataset**: Thanks to the creators of the publicly available COVID-19 Chest X-ray dataset used in this project.  
+- **Libraries & Frameworks**: Built with [TensorFlow](https://www.tensorflow.org/), [Keras](https://keras.io/), [NumPy](https://numpy.org/), [Pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/).  
+- **Inspiration & Tutorials**: This project was inspired by various open-source COVID-19 detection tutorials and deep learning guides.  
+- **Community Contributions**: Open-source community support for code, tutorials, and dataset curation.
+
+> Special thanks to all researchers and developers contributing to publicly available COVID-19 datasets and deep learning resources.
 
 ---
 
